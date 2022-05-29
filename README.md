@@ -1,3 +1,4 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 ![GitHub](https://img.shields.io/github/license/harrypython/itsagramlive)
 ![PyPI](https://img.shields.io/pypi/v/itsagramlive)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/harrypython/itsagramlive?label=Version)
