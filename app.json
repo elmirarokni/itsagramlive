@@ -1,0 +1,11 @@
+{
+    "name": "itsagramlive",
+    "description": "itsagramlive",
+    "repository": "https://github.com/elmirarokni/itsagramlive",
+    "stack": "heroku-20",
+    "buildpacks": [
+        {   
+            "url": "heroku/python"  
+        }
+      ]
+  }
