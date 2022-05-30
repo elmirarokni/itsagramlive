@@ -3,18 +3,12 @@
     "description": "itsagramlive",
     "repository": "https://github.com/elmirarokni/itsagramlive",
     "stack": "heroku-20",
-    "env": {
-    "FFMPEG_DOWNLOAD_URL": {
-      "description": "amd 64 static version in tar.xz extention ()",
-      "value": "https://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-4.1.4-amd64-static.tar.xz"
-    }
-    },
     "buildpacks": [
         {   
             "url": "heroku/python"  
         },
         {
-          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          "url": "https://github.com/elmirarokni/heroku-buildpack-ffmpeg-latest.git"
         }
       ]
   }
