@@ -7,6 +7,11 @@
         {   
             "url": "heroku/python"  
         },
+    "env": {
+    "FFMPEG_DOWNLOAD_URL": {
+      "description": "amd 64 static version in tar.xz extention ()",
+      "value": "https://www.videohelp.com/download/ffmpeg-3.3.1.tar.bz2"
+    },
         {
           "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
         }
