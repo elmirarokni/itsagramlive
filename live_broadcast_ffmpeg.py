@@ -29,7 +29,7 @@ if live.login():
                          "-bufsize 6000k " \
                          "-vb 400k " \
                          "-maxrate 1500k " \
-                         "-yadif=parity=auto " \
+                         "-filter:v bwdif=mode=send_field:parity=auto:deint=all " \
                          "-vcodec libx264 " \
                          "-preset veryfast " \
                          "-g 30 -r 30 " \
