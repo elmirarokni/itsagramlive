@@ -7,3 +7,4 @@ requests-toolbelt>=0.9.1
 tqdm
 requests
 imageio==2.9.0
+python-ffmpeg
